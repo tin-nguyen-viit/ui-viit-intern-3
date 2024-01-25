@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Search, Menu, ChevronDown, ShoppingBasket } from "lucide-react";
+import { Search, Menu, ChevronDown, ShoppingBasket } from "lucide-vue-next";
 </script>
 
 <template>
@@ -40,13 +40,13 @@ import { Search, Menu, ChevronDown, ShoppingBasket } from "lucide-react";
               class="w-full h-full flex justify-start items-center uppercase text-base gap-x-12 flex-wrap"
             >
               <a class="" href="#">Trang Chủ</a>
-              <a class="" href="#"
+              <a class="flex justify-center items-center" href="#"
                 >Giày <ChevronDown color="#000000" :stroke-width="1.75"
               /></a>
-              <a class="" href="#"
+              <a class="flex justify-center items-center" href="#"
                 >Quần áo<ChevronDown color="#000000" :stroke-width="1.75"
               /></a>
-              <a class="" href="#"
+              <a class="flex justify-center items-center" href="#"
                 >phụ kiện<ChevronDown color="#000000" :stroke-width="1.75"
               /></a>
 

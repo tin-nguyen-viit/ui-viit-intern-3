@@ -1,4 +1,12 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
+  YoutubeIcon,
+} from "lucide-vue-next";
+</script>
 
 <template>
   <footer class="w-full">
@@ -64,39 +72,40 @@
 
             <div class="flex gap-4">
               <a
-                class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-600 shrink-0"
+                class="w-10 h-10 flex justify-center items-center rounded-full bg-black hover:bg-blue-600 shrink-0"
                 href=""
               >
+                <Facebook color="#ffffff" />
                 <!-- <i
                   class="m-auto fa-brands fa-facebook-f"
                   style="color: #ffff"
                 ></i> -->
               </a>
               <a
-                class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-pink-300 shrink-0"
+                class="w-10 h-10 flex justify-center items-center rounded-full bg-black hover:bg-pink-300 shrink-0"
                 href=""
-              >
+                ><Instagram color="#ffffff" />
                 <!-- <i
                   class="m-auto fa-brands fa-instagram fa-lg"
                   style="color: #ffff"
                 ></i> -->
               </a>
               <a
-                class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-black/45 shrink-0"
+                class="w-10 h-10 flex justify-center items-center rounded-full bg-black hover:bg-black/45 shrink-0"
                 href=""
-              >
+                ><Linkedin color="#ffffff" />
                 <!-- <i class="m-auto fa-brands fa-tiktok" style="color: #ffff"></i> -->
               </a>
               <a
-                class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-blue-300 shrink-0"
+                class="w-10 h-10 flex justify-center items-center rounded-full bg-black hover:bg-blue-300 shrink-0"
                 href=""
-              >
+                ><Twitter color="#ffffff" />
                 <!-- <i class="m-auto fa-brands fa-twitter" style="color: #ffff"></i> -->
               </a>
               <a
-                class="w-10 h-10 flex items-center rounded-full bg-black hover:bg-red-500 shrink-0"
+                class="w-10 h-10 flex justify-center items-center rounded-full bg-black hover:bg-red-500 shrink-0"
                 href=""
-              >
+                ><YoutubeIcon color="#ffffff" />
                 <!-- <i class="m-auto fa-brands fa-youtube" style="color: #ffff"></i> -->
               </a>
             </div>
