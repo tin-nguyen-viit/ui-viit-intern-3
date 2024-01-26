@@ -1,30 +1,30 @@
 <script setup lang="ts">
-const PRODUCTS = [
-  {
-    id: "001",
+// const PRODUCTS = [
+//   {
+//     id: "001",
 
-    title: "Giày Nike Air Force 1",
-    nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-    img: "../assets/imgs/giay1.png",
-    price: 40000,
-  },
-  {
-    id: "002",
+//     title: "Giày Nike Air Force 1",
+//     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
+//     img: "../assets/imgs/giay1.png",
+//     price: 40000,
+//   },
+//   {
+//     id: "002",
 
-    title: "Giày Nike Air Force 1",
-    nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-    img: "../assets/imgs/giay1.png",
-    price: 40000,
-  },
-  {
-    id: "003",
+//     title: "Giày Nike Air Force 1",
+//     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
+//     img: "../assets/imgs/giay1.png",
+//     price: 40000,
+//   },
+//   {
+//     id: "003",
 
-    title: "Giày Nike Air Force 1",
-    nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-    img: "../assets/imgs/giay1.png",
-    price: 40000,
-  },
-];
+//     title: "Giày Nike Air Force 1",
+//     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
+//     img: "../assets/imgs/giay1.png",
+//     price: 40000,
+//   },
+// ];
 </script>
 
 <template>

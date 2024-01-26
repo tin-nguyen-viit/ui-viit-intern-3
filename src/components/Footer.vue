@@ -54,7 +54,11 @@ import {
               ĐKKD: 01E8027929 - Cấp ngày: 01/06/2019 - Nơi cấp: Hà Nội
             </p>
           </div>
-          <img class="w-max object-cover" src="./imgs/nhan.png " alt="" />
+          <img
+            class="w-max object-cover"
+            src="../assets/imgs/nhan.png "
+            alt=""
+          />
         </div>
       </div>
       <!--  -->

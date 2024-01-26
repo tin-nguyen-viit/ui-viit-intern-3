@@ -6,10 +6,17 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 </script>
 <template>
   <section class="splide" aria-label="Splide Basic HTML Example">
-    <Carousel>
+    <Carousel
+      :plugins="[
+        Autoplay({
+          delay: 2000,
+        }),
+      ]"
+    >
       <CarouselContent>
         <CarouselItem
           ><img
@@ -30,8 +37,8 @@ import {
             alt=""
         /></CarouselItem>
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious class="hidden lg:block" />
+      <CarouselNext class="hidden lg:block" />
     </Carousel>
   </section>
 
