@@ -1,31 +1,38 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+</script>
 <template>
   <section class="splide" aria-label="Splide Basic HTML Example">
-    <div class="splide__track">
-      <ul class="splide__list">
-        <li class="splide__slide">
-          <img
+    <Carousel>
+      <CarouselContent>
+        <CarouselItem
+          ><img
             class="object-cover"
             src="../assets/imgs/Jordan7RetroInfraredRelease_Prim-1-2048x648.webp"
             alt=""
-          />
-        </li>
-        <li class="splide__slide">
-          <img
+        /></CarouselItem>
+        <CarouselItem
+          ><img
             class="object-cover"
-            src="./imgs/Adidas-Yeezy-Slide-2048x648.webp"
+            src="../assets/imgs/Adidas-Yeezy-Slide-2048x648.webp"
             alt=""
-          />
-        </li>
-        <li class="splide__slide">
-          <img
+        /></CarouselItem>
+        <CarouselItem
+          ><img
             class="object-cover"
-            src="./imgs/Jordan7RetroInfraredRelease_Prim-1-2048x648.webp"
+            src="../assets/imgs/Jordan7RetroInfraredRelease_Prim-1-2048x648.webp"
             alt=""
-          />
-        </li>
-      </ul>
-    </div>
+        /></CarouselItem>
+      </CarouselContent>
+      <CarouselPrevious />
+      <CarouselNext />
+    </Carousel>
   </section>
 
   <!--  -->
