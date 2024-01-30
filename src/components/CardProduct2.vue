@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+defineProps({
+  nameProduct: String,
+  msg: String,
+});
+</script>
 <template>
   <div class="w-1/5 flex flex-col items-center p-1">
     <div
@@ -10,6 +15,6 @@
         alt="Hình giày Adidas"
       />
     </div>
-    <h2 class="p-2 text-base">Adidas</h2>
+    <h2 class="p-2 text-base">{{ nameProduct }}</h2>
   </div>
 </template>

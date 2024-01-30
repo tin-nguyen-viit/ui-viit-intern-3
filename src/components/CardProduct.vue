@@ -1,30 +1,11 @@
 <script setup lang="ts">
-// const PRODUCTS = [
-//   {
-//     id: "001",
-
-//     title: "Giày Nike Air Force 1",
-//     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-//     img: "../assets/imgs/giay1.png",
-//     price: 40000,
-//   },
-//   {
-//     id: "002",
-
-//     title: "Giày Nike Air Force 1",
-//     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-//     img: "../assets/imgs/giay1.png",
-//     price: 40000,
-//   },
-//   {
-//     id: "003",
-
-//     title: "Giày Nike Air Force 1",
-//     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-//     img: "../assets/imgs/giay1.png",
-//     price: 40000,
-//   },
-// ];
+defineProps({
+  id: String,
+  title: String,
+  nameProduct: String,
+  image: String,
+  price: Number,
+});
 </script>
 
 <template>
@@ -42,11 +23,11 @@
       <i class="absolute right-4 bottom-4 fa-regular fa-heart"></i>
     </div>
     <div class="flex flex-col text-sm gap-1 py-2">
-      <h2 class="underline">Giày Nike Air Force 1</h2>
+      <h2 class="underline">{{ title }}</h2>
       <h3 class="text-pretty cursor-pointer hover:text-blue-300">
-        Giày Nike Air Force 1 07 Triple White CW2288-111
+        {{ nameProduct }}
       </h3>
-      <p class="font-bold">4500000 đ</p>
+      <p class="font-bold">{{ price }} đ</p>
     </div>
   </div>
 </template>
