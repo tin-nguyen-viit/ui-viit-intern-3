@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Search, Menu, ChevronDown, ShoppingBasket } from "lucide-vue-next";
+import { Search, ChevronDown, ShoppingBasket } from "lucide-vue-next";
+import SidebarMenu from "./SidebarMenu.vue";
 </script>
 
 <template>
@@ -23,9 +24,7 @@ import { Search, Menu, ChevronDown, ShoppingBasket } from "lucide-vue-next";
         class="flex justify-between items-center py-1 px-4 mx-auto lg:max-w-[80rem]"
       >
         <div class="flex items-center gap-10">
-          <button name="sidebar" class="lg:hidden">
-            <Menu color="#000000" :stroke-width="1.75" />
-          </button>
+          <SidebarMenu />
           <div>
             <img
               class="h-14 lg:h-max"
@@ -39,8 +38,8 @@ import { Search, Menu, ChevronDown, ShoppingBasket } from "lucide-vue-next";
             <div
               class="w-full h-full flex justify-start items-center uppercase text-base gap-x-12 flex-wrap"
             >
-              <a class="" href="#">Trang Chủ</a>
-              <a class="flex justify-center items-center" href="#"
+              <a class="" href="/">Trang Chủ</a>
+              <a class="flex justify-center items-center" href="/Giay"
                 >Giày <ChevronDown color="#000000" :stroke-width="1.75"
               /></a>
               <a class="flex justify-center items-center" href="#"

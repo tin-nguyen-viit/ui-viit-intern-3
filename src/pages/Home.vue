@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import Slides from "./Slides.vue";
-import CardProduct from "./CardProduct.vue";
-import CardProduct2 from "./CardProduct2.vue";
-import ButtonSeeAll from "./ui/ButtonSeeAll.vue";
-import FactionInf from "./FactionInf.vue";
+import CardProduct from "@/components/CardProduct.vue";
+import CardProduct2 from "@/components/CardProduct2.vue";
+import FactionInf from "@/components/FactionInf.vue";
+import Slides from "@/components/Slides.vue";
+import ButtonSeeAll from "@/components/ui/ButtonSeeAll.vue";
 import { ref } from "vue";
 
 let dataProduct1 = ref([
@@ -11,56 +11,56 @@ let dataProduct1 = ref([
     id: "001",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-111",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "002",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-112",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-113",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-113",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-113",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-113",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-113",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Giày Nike Air Force 1",
     nameProduct: "Giày Nike Air Force 1 07 Triple White CW2288-113",
-    image: "../assets/imgs/giay1.png",
+    image: "./public/imgs/giay1.png",
     price: 40000,
   },
 ]);
@@ -155,42 +155,42 @@ let dataProduct3 = ref([
     id: "001",
     title: "Phụ kiện",
     nameProduct: "Nước Hoa Alaïa Alaia Paris EDP",
-    image: "../assets/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
+    image: "./public/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
     price: 40000,
   },
   {
     id: "002",
     title: "Phụ kiện",
     nameProduct: "Nước Hoa Alaïa Alaia Paris EDP",
-    image: "../assets/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
+    image: "./public/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
     price: 40000,
   },
   {
     id: "003",
     title: "Phụ kiện",
     nameProduct: "Nước Hoa Alaïa Alaia Paris EDP",
-    image: "../assets/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
+    image: "./public/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
     price: 40000,
   },
   {
     id: "004",
     title: "Phụ kiện",
     nameProduct: "Nước Hoa Alaïa Alaia Paris EDP",
-    image: "../assets/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
+    image: "./public/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
     price: 40000,
   },
   {
     id: "005",
     title: "Phụ kiện",
     nameProduct: "Nước Hoa Alaïa Alaia Paris EDP",
-    image: "../assets/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
+    image: "./public/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
     price: 40000,
   },
   {
     id: "006",
     title: "Phụ kiện",
     nameProduct: "Nước Hoa Alaïa Alaia Paris EDP",
-    image: "../assets/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
+    image: "./public/imgs/Nuoc-Hoa-Tom-Ford-Fabulous-EDP-1.png",
     price: 40000,
   },
 ]);
