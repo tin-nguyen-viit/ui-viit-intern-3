@@ -70,11 +70,11 @@ let dataProduct1 = ref([
       >
         <p>Hiển thị 1–48 của 39431 kết quả</p>
         <select class="border p-2">
-          <option value="">Sản phẩm xem nhiều nhất</option>
+          <!-- <option value="">Sản phẩm xem nhiều nhất</option>
           <option value="">Thứ tự theo điểm giá</option>
           <option value="">Mới bán</option>
           <option value="">Thấp đến cao</option>
-          <option value="">Cao đến thấp</option>
+          <option value="">Cao đến thấp</option> -->
         </select>
       </div>
     </div>

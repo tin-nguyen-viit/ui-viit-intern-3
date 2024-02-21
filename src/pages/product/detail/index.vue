@@ -16,21 +16,22 @@ import {
 import { BadgePercent, Phone, PiggyBank, ShoppingCart } from "lucide-vue-next";
 import { ref } from "vue";
 let sizes = ref([36, 36.5, 37, 37.5, 38, 38.5, 39, 39.5, 40]);
+const defaultValue = "item-1";
 const accordionItems = [
   {
     value: "item-1",
-    title: "Is it accessible?",
+    title: "Hệ Thống Cửa Hàng",
     content: "Yes. It adheres to the WAI-ARIA design pattern.",
   },
   {
     value: "item-2",
-    title: "Is it unstyled?",
+    title: "Cam Kết Khách Hàng",
     content:
       "Yes. It's unstyled by default, giving you freedom over the look and feel.",
   },
   {
     value: "item-3",
-    title: "Can it be animated?",
+    title: "Chính Sách Đổi Trả, Bảo Hành",
     content: "Yes! You can use the transition prop to configure the animation.",
   },
 ];
@@ -63,6 +64,42 @@ const accordionItems = [
           /></CarouselItem>
         </CarouselContent>
 
+        <CarouselPrevious class="left-1" />
+        <CarouselNext class="right-1" />
+      </Carousel>
+      <Carousel>
+        <CarouselContent class="mt-4">
+          <CarouselItem class="basis-1/4 rounded-xl"
+            ><img
+              class="object-cover rounded-xl"
+              src="https://cdn.authentic-shoes.com/wp-content/uploads/2023/06/3b099eaa-b0a6-4e01-a548-b0ed81b9195c-600x467.png"
+              alt=""
+          /></CarouselItem>
+          <CarouselItem class="basis-1/4 rounded-xl"
+            ><img
+              class="object-cover rounded-xl"
+              src="https://cdn.authentic-shoes.com/wp-content/uploads/2023/06/3b099eaa-b0a6-4e01-a548-b0ed81b9195c-600x467.png"
+              alt=""
+          /></CarouselItem>
+          <CarouselItem class="basis-1/4 rounded-xl"
+            ><img
+              class="object-cover rounded-xl"
+              src="https://cdn.authentic-shoes.com/wp-content/uploads/2023/06/3b099eaa-b0a6-4e01-a548-b0ed81b9195c-600x467.png"
+              alt=""
+          /></CarouselItem>
+          <CarouselItem class="basis-1/4 rounded-xl"
+            ><img
+              class="object-cover rounded-xl"
+              src="https://cdn.authentic-shoes.com/wp-content/uploads/2023/06/3b099eaa-b0a6-4e01-a548-b0ed81b9195c-600x467.png"
+              alt=""
+          /></CarouselItem>
+          <CarouselItem class="basis-1/4 rounded-xl"
+            ><img
+              class="object-cover rounded-xl"
+              src="https://cdn.authentic-shoes.com/wp-content/uploads/2023/06/3b099eaa-b0a6-4e01-a548-b0ed81b9195c-600x467.png"
+              alt=""
+          /></CarouselItem>
+        </CarouselContent>
         <CarouselPrevious class="left-1" />
         <CarouselNext class="right-1" />
       </Carousel>
@@ -136,7 +173,12 @@ const accordionItems = [
           <span class="text-sm">QUA CÔNG TY TÀI CHÍNH</span>
         </button>
       </div>
-      <Accordion type="single" class="w-full" collapsible>
+      <Accordion
+        type="single"
+        class="w-full"
+        collapsible
+        :default-value="defaultValue"
+      >
         <AccordionItem
           v-for="item in accordionItems"
           :key="item.value"
